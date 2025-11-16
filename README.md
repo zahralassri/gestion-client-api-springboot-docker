@@ -26,12 +26,11 @@
 
 ## 📦 Build and Run Instructions
 
-### 1️⃣ Build the project with Maven
+### 1️⃣ Build the project with Maven And Start the API and MySQL with Docker Compose
 
 ```bash
-mvn clean package -DskipTests
+-mvn clean package -DskipTests
 
-### 2 Start the API and MySQL with Docker Compose
-docker compose up -d --build
+-docker compose up -d --build
 
 
